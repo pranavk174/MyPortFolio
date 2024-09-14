@@ -2,6 +2,7 @@ import razorpay from "../assets/razorpay.png";
 import tictactoe from "../assets/tictctoe.png";
 import spotify from "../assets/spotify.png";
 import airbnb from "../assets/airbnb.png";
+import weather from "../assets/weather.png"
 
 export const HERO_CONTENT = `As a passionate Full Stack Developer, I have honed my skills across both front-end and back-end technologies to deliver comprehensive, user-friendly web solutions. My expertise includes modern front-end frameworks like React, coupled with solid back-end experience in Node.js, Express, and database management with MongoDB and SQL. I thrive on solving complex problems and take pride in writing clean, efficient code. Whether it's crafting seamless user interfaces or building robust server-side logic, I am dedicated to creating high-quality applications that meet user needs and exceed expectations`;
 
@@ -47,6 +48,13 @@ export const PROJECTS = [
     description:
       "I have developed a travel website that includes a comprehensive authentication system, allowing users to securely log in and manage their accounts.",
     technologies: ["HTML", "CSS", "TailwindCss", "Node.js","Express","MongoDB"],
+  },
+  {
+    title: "Weather App",
+     image: weather,
+    description:
+      "A weather App with proper focus in Frontend utilizing ReactJs , TailwindCSS.",
+    technologies: ["ReactJs", "TailwincCss"],
   },
   {
     title: "Spotify Clone",

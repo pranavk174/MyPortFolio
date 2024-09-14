@@ -42,7 +42,7 @@ const iconVariants1 = (duration)=>({
   }
 })
   return (
-   <nav className="flex justify-between px-[4rem]  w-[100vw] z-10    items-center   text-white h-[10vh]">
+   <nav className="flex justify-between px-[4rem]  w-[100vw] z-10  lg:fixed top-0 mb-20 items-center   text-white h-[10vh]">
       
   <motion.div variants={iconVariants(1) } initial="initial" animate="animate" >
   <SiCodeigniter className="text-[2rem] text-purple-600" />
